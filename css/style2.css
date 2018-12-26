@@ -1,0 +1,206 @@
+ *{margin:0px auto;}
+html, body{
+background: #30F;
+height:100%;
+}
+
+.box{ 
+	background:white;
+
+}
+
+.wrap {
+            width:1000px;
+            margin:auto;
+            box-shadow:2px 2px 2px gray;
+            background: pink;
+			min-height:100%;
+}          
+ 
+li{
+list-style-type:none;
+float:left;
+ }
+ 
+.main {
+            width:100%;
+			overflow:auto;
+			padding-bottom:150px;
+            
+}
+ 
+
+.content {
+            float:left;
+            width:66%; 
+            height:400px;
+			 padding:10px;
+    	 padding-bottom:60px;
+}
+
+#container{
+    min-height:100%;
+    position:relative;
+}
+
+.P1{
+	font-family: supermolot;
+	font-size: 36px;
+	text-align: center;
+	margin: auto;
+	color:#39F;
+}
+.P3{
+	font-family:Georgia;
+	font-size:18px;
+	text-align:justify;
+	margin:auto;
+	vertical-align:text-bottom;
+	
+}
+
+.p2{
+	text-align:center;
+	background-color:#000000;
+	margin:auto;
+	font-size:11px;
+	
+	}
+	.P4{
+	font-family:Georgia;
+	text-align:left;
+	
+	margin:auto;
+	font-size:30px;	
+	}
+	
+	.abu{
+	background-color:#CCC;
+	margin:auto;
+	}
+.gambar{
+width:30%;
+height:100px;
+}
+ 
+.sidebar {
+            float:left;
+            width:34%;
+            padding:2%;
+			height:400px;
+ 
+}          
+ 
+.clear {clear:both;}
+ 
+}
+
+.kategori{
+text-decoration:none;
+list-style-type:none;
+}
+
+.berok{
+	width:100%;
+}
+.coba{
+	background: #366;
+	text-align: center;
+	color: #FFF;
+}
+.img1 {
+     width: 150px;
+     height: 100px;
+     border: 1px solid #666;
+	 padding:10px;
+	 
+	 
+}
+
+.img2 {
+     width:auto;
+	 height:auto;
+     margin:10px auto;
+     border: 8px solid #FFF;
+	 vertical-align:middle;
+	 max-width:90%;
+	 
+}
+
+  .img3 {
+	 
+     margin:10px auto;
+     border: 8px solid #FFF;
+	 vertical-align:middle;
+	 max-width:70%;
+	 
+}  
+
+.img4 {
+     width: auto;
+     border: 1px solid #666;
+	 padding:10px;
+	 
+	 
+}
+
+   
+
+footer {
+color:#666;
+background: #222;
+padding: 17px 0 18px 0;
+border-top: 1px solid #0000;
+clear:both;
+}
+footer a {
+color: #999;
+}
+footer a:hover {
+color: #0CC;
+}
+
+
+
+/* not required for sticky footer; just pushes hero down a bit */
+.wrapper > .container {
+padding-top: 60px;
+} 
+
+
+.f
+{
+	color:#000;
+}
+
+
+
+
+
+.gallery {
+    width: 640px;
+    position: relative;
+    margin: 60px auto 0
+}
+.image-slide {
+    width: 400px;
+    height: 235px;
+    position: absolute
+}
+.image-list {
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    list-style: none;
+    position: absolute;
+}
+.image-list li {
+    float: left;
+    position: relative;
+    margin: 0 0 10px 10px;
+}
+.image-list img {
+    display: block;
+}
